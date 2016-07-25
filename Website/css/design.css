@@ -1,0 +1,40 @@
+ul.topbar li.topbar a
+{
+ color:#FBF5F3;
+}
+
+ul.topbar li.topbar a:hover
+{
+ background-color:#F26419;
+}
+
+.main_img
+{
+	margin: 0;
+	padding: 0px;
+}
+
+.front_view
+{
+	background-image:url('./img/main_bg.jpg');
+	background-repeat: no-repeat;
+}
+
+.navbar-inverse-custom
+{
+	margin-bottom: 0px;
+	background-color:#1d1d1d;
+	border-color: #1d1d1d;
+}
+
+.label
+{
+	color:#F26419;
+	font-weight: bold;
+	font-size: 125%;
+}
+
+input.inputfields
+{
+	width: 300px;
+}
