@@ -1,11 +1,20 @@
+@font-face
+{
+font-family: larch;
+src: url('./fonts/larch.ttf');
+}
+
+
 ul.topbar li.topbar a
 {
  color:#FBF5F3;
+ font-family: larch;
 }
 
 ul.topbar li.topbar a:hover
 {
- background-color:#F26419;
+ background-color:#e17033;
+ font-family: larch;
 }
 
 .main_img
@@ -14,27 +23,95 @@ ul.topbar li.topbar a:hover
 	padding: 0px;
 }
 
-.front_view
-{
-	background-image:url('./img/main_bg.jpg');
-	background-repeat: no-repeat;
-}
-
 .navbar-inverse-custom
 {
 	margin-bottom: 0px;
 	background-color:#1d1d1d;
 	border-color: #1d1d1d;
+	z-index: 4px;
 }
 
 .label
 {
-	color:#F26419;
+	color:#e17033;
 	font-weight: bold;
+	font-family: larch;
 	font-size: 125%;
 }
 
-input.inputfields
+.entrylabel
 {
-	width: 300px;
+	margin-bottom: 15px;
+	font-family: larch;
+}
+
+.inputfields_container
+{
+	width: 380px;
+	float: right;
+	margin-right: 35px;
+	margin-left: 35px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+hr.bottombar
+{
+	width: 40%;
+	text-align: center;
+	border-top: 1px solid #e17033;
+	margin: 0 auto;
+}
+
+div.img
+{
+  height: auto;
+  width: auto;
+  margin: 10px;
+}	
+
+div.img_container
+{
+  height: 175px;
+  width: auto;
+  float: left;
+  margin: 5px;
+  background-color: #1d1d1d;
+}
+
+img.img
+{
+  height: 120px;
+  width: 120px;
+  float: left top;
+  text-align: center;
+  text-align: center;
+  z-index: 2px;
+  background-color: #1d1d1d;
+}	
+
+div.img a:hover img 
+{
+	border: 1px solid #e17033;
+}
+
+div.songtitle
+{
+  text-align: left;
+  width: 80px;
+  color: #ffffff;
+  margin-top : 6px;
+  margin-left: 4px;
+  font-size: 16px;
+}
+
+div.songartist
+{
+  text-align: left;
+  width: 80px;
+  float: bottom;
+  margin-bottom: 2px;
+  margin-left: 4px;
+  color: #e17033;
+  font-size: 12px;
 }
