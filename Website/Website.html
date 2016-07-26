@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Echo Streamer</title>
+  <link rel="icon" type="image/png" href="./img/icon.ico" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -9,44 +10,258 @@
   <script src="./js/jquery.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
-  <div style="background-image:url('./img/main_bg.jpg');height: 100%; width: 100%;">
 
-    <nav class="navbar navbar-inverse navbar-inverse-custom"  >
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>                        
-          </button>
-          <a class="navbar-brand" href="#" style="color:#ffffff;margin-right: 48px;margin-left: 24px">Echo</a>
-        </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="nav navbar-nav topbar">
-            <li class="topbar"><a href="#">Home</a></li>
-            <li class="topbar"><a href="#">Suggestions</a></li>
-            <li class="topbar"><a href="#">Favorites</a></li>
-            <li class="topbar"><a href="#">Discover</a></li>
-            <li class="topbar"><a href="#">Subscription</a></li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right topbar">
-            <li class="topbar"><a href="#">Sign Up</a></li>
-            <li class="topbar"><a href="#">Login</a></li>
-          </ul>
-        </div>
+
+  <nav class="navbar navbar-inverse navbar-inverse-custom"  >
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#" style="color:#ffffff;margin-right: 48px;margin-left: 24px"><img src="./img/icon.png" style="width:24px; height: 24px;float: left;margin-right: 16px;font-family: bellerose; " />Echo</a>
       </div>
-    </nav>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav topbar">
+          <li class="topbar"><a href="#">Home</a></li>
+          <li class="topbar"><a href="#">Genre</a></li>
+          <li class="topbar"><a href="#">Playlist</a></li>
+          <li class="topbar"><a href="#">Favorites</a></li>
+          <li class="topbar"><a href="#">Subscription</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right topbar">
+          <li class="topbar"><a href="#">Sign Up</a></li>
+          <li class="topbar"><a href="#">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <div>
-      <div class="form-group inputfields_container">
-        <span class="label">Username:</span><input type="text" class="form-control " id="usr"/>
-        <span class="label">Password:</span><input type="password" class="form-control" id="pwd"/>
-        <button class="form-control" id="submit">Submit</button>
-      </div>   
+  <div>
+
+    <div style="background-image:url('./img/main_bg.jpg');background-size: cover;overflow: hidden;background-repeat: no-repeat">
+
+      <form class="form-inline " role="form">
+
+        <div class="inputfields_container">
+
+          <div class="form-group" style="margin-bottom: 40px;">
+            <input type="text" class="form-control" id="email" placeholder="Enter Username" style="width: 300px;">
+          </div>
+
+          <div class="form-group" style="margin-bottom: 40px;">
+            <input type="password" class="form-control" id="pwd" placeholder="Enter password" style="width: 300px;">
+          </div>
+
+          <div style="margin-bottom: 40px;">
+            <button type="submit" class="btn btn-default" style="width: 300px;background-color: #e17033;border-color: #e17033"><span style="color:#ffffff;">Sign In</span></button>
+          </div>
+
+          <div style="margin-bottom: 20px;color:#e17033">
+            <b>Not a member?</b><button type="submit" class="btn btn-default" style="width: 180px;margin-left:20px;background-color: #c02a2a;border-color: #c02a2a"><span style="color:#ffffff;">Sign up</span></button>
+          </div>
+
+          <div style="margin-left:24px;margin-top: 40px">
+
+            <img src="./img/google.png" style="width: 48px;height: 48px;margin-right: 20px;" />
+
+            <img src="./img/fb.png" style="width: 48px;height: 48px;margin-right: 20px;margin-left: 20px"/>
+
+            <img src="./img/icon.png" style="width: 48px;height: 48px;margin-left: 20px;"/>
+
+          </div>
+
+
+        </div>
+      </form>
+
+
     </div>
 
-  </div>
-</body>
-</html>
+    <div style="text-align: center;margin-top: 10px;">
+      <p style="color:#e17033">Trending</p>
+      <hr class="bottombar"></hr>
+    </div>
+
+
+    <div class="img">
+
+      <div class="img_container">
+        <img class="img" src="./img/led.png"></a>
+        <div class="songtitle">Kashmir</div>
+        <div class="songartist">Led Zepplin</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/queens.jpg"></a>
+        <div class="songtitle">I Want It...</div>
+        <div class="songartist">Queens</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/clapton.jpg"></a>
+        <div class="songtitle">Layla</div>
+        <div class="songartist">Eric Claptopn</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/floyd.jpg"></a>
+        <div class="songtitle">Money</div>
+        <div class="songartist">Pink Floyd</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/eminem.jpg"></a>
+        <div class="songtitle">No Love</div>
+        <div class="songartist">Eminem</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/led.png"></a>
+        <div class="songtitle">Kashmir</div>
+        <div class="songartist">Led Zepplin</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/queens.jpg"></a>
+        <div class="songtitle">I Want It...</div>
+        <div class="songartist">Queens</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/clapton.jpg"></a>
+        <div class="songtitle">Layla</div>
+        <div class="songartist">Eric Claptopn</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/floyd.jpg"></a>
+        <div class="songtitle">Money</div>
+        <div class="songartist">Pink Floyd</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/eminem.jpg"></a>
+        <div class="songtitle">No Love</div>
+        <div class="songartist">Eminem</div>
+      </div>
+      <div class="img_container">
+        <img class="img" src="./img/led.png"></a>
+        <div class="songtitle">Kashmir</div>
+        <div class="songartist">Led Zepplin</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/queens.jpg"></a>
+        <div class="songtitle">I Want It...</div>
+        <div class="songartist">Queens</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/clapton.jpg"></a>
+        <div class="songtitle">Layla</div>
+        <div class="songartist">Eric Claptopn</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/floyd.jpg"></a>
+        <div class="songtitle">Money</div>
+        <div class="songartist">Pink Floyd</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/eminem.jpg"></a>
+        <div class="songtitle">No Love</div>
+        <div class="songartist">Eminem</div>
+      </div>
+      <div class="img_container">
+        <img class="img" src="./img/led.png"></a>
+        <div class="songtitle">Kashmir</div>
+        <div class="songartist">Led Zepplin</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/queens.jpg"></a>
+        <div class="songtitle">I Want It...</div>
+        <div class="songartist">Queens</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/clapton.jpg"></a>
+        <div class="songtitle">Layla</div>
+        <div class="songartist">Eric Claptopn</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/floyd.jpg"></a>
+        <div class="songtitle">Money</div>
+        <div class="songartist">Pink Floyd</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/eminem.jpg"></a>
+        <div class="songtitle">No Love</div>
+        <div class="songartist">Eminem</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/led.png"></a>
+        <div class="songtitle">Kashmir</div>
+        <div class="songartist">Led Zepplin</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/queens.jpg"></a>
+        <div class="songtitle">I Want It...</div>
+        <div class="songartist">Queens</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/clapton.jpg"></a>
+        <div class="songtitle">Layla</div>
+        <div class="songartist">Eric Claptopn</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/floyd.jpg"></a>
+        <div class="songtitle">Money</div>
+        <div class="songartist">Pink Floyd</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/eminem.jpg"></a>
+        <div class="songtitle">No Love</div>
+        <div class="songartist">Eminem</div>
+      </div>
+      <div class="img_container">
+        <img class="img" src="./img/led.png"></a>
+        <div class="songtitle">Kashmir</div>
+        <div class="songartist">Led Zepplin</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/queens.jpg"></a>
+        <div class="songtitle">I Want It...</div>
+        <div class="songartist">Queens</div>
+      </div>
+
+      <div class="img_container">
+        <img class="img" src="./img/clapton.jpg"></a>
+        <div class="songtitle">Layla</div>
+        <div class="songartist">Eric Claptopn</div>
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+  </body>
+  </html>
