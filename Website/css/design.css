@@ -1,5 +1,5 @@
-@font-face
-{
+
+@font-face{
 font-family: larch;
 src: url('./fonts/larch.ttf');
 }
@@ -8,13 +8,13 @@ src: url('./fonts/larch.ttf');
 ul.topbar li.topbar a
 {
  color:#FBF5F3;
- font-family: larch;
+ font-family: larch,verdana;
 }
 
 ul.topbar li.topbar a:hover
 {
  background-color:#e17033;
- font-family: larch;
+ font-family: larch,verdana;
 }
 
 .main_img
@@ -31,28 +31,35 @@ ul.topbar li.topbar a:hover
 	z-index: 4px;
 }
 
+.form_custom
+{
+	width: 20%;
+	margin: auto;
+
+}
+
 .label
 {
 	color:#e17033;
 	font-weight: bold;
-	font-family: larch;
+	font-family: larch,verdana;
 	font-size: 125%;
 }
 
 .entrylabel
 {
 	margin-bottom: 15px;
-	font-family: larch;
+	font-family: larch,verdana;
 }
 
 .inputfields_container
 {
-	width: 380px;
 	float: right;
-	margin-right: 35px;
-	margin-left: 35px;
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin: auto;
+	margin-right: 15%;
+	margin-top: 11%;
+	margin-bottom: 11%;
+	font-family: verdana;
 }
 
 hr.bottombar
@@ -66,8 +73,9 @@ hr.bottombar
 div.img
 {
   height: auto;
-  width: auto;
-  margin: 10px;
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
 }	
 
 div.img_container
