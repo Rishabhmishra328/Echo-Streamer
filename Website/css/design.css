@@ -1,20 +1,20 @@
 
 @font-face{
-font-family: larch;
-src: url('./fonts/larch.ttf');
+	font-family: larch;
+	src: url('./fonts/larch.ttf');
 }
 
 
 ul.topbar li.topbar a
 {
- color:#FBF5F3;
- font-family: larch,verdana;
+	color:#ffffff;
+	font-family: larch,verdana;
 }
 
 ul.topbar li.topbar a:hover
 {
- background-color:#e17033;
- font-family: larch,verdana;
+	background-color:#2ecc71;
+	font-family: larch,verdana;
 }
 
 .main_img
@@ -40,7 +40,6 @@ ul.topbar li.topbar a:hover
 
 .label
 {
-	color:#e17033;
 	font-weight: bold;
 	font-family: larch,verdana;
 	font-size: 125%;
@@ -66,60 +65,76 @@ hr.bottombar
 {
 	width: 40%;
 	text-align: center;
-	border-top: 1px solid #e17033;
+	border-top: 1px solid #2ecc71;
 	margin: 0 auto;
 }
 
 div.img
 {
-  height: auto;
-  width: 70%;
-  margin: auto;
-  margin-top: 10px;
+	height: auto;
+	width: 70%;
+	margin: auto;
+	margin-top: 10px;
 }	
 
 div.img_container
 {
-  height: 175px;
-  width: auto;
-  float: left;
-  margin: 5px;
-  background-color: #1d1d1d;
+	height: 175px;
+	width: auto;
+	float: left;
+	margin: 5px;
+	background-color: #1d1d1d;
 }
 
 img.img
 {
-  height: 120px;
-  width: 120px;
-  float: left top;
-  text-align: center;
-  text-align: center;
-  z-index: 2px;
-  background-color: #1d1d1d;
+	height: 120px;
+	width: 120px;
+	float: left top;
+	text-align: center;
+	text-align: center;
+	z-index: 2px;
+	background-color: #1d1d1d;
 }	
 
-div.img a:hover img 
+img.img img:hover img 
 {
-	border: 1px solid #e17033;
+	border: 3px solid #2ecc71;
 }
 
 div.songtitle
 {
-  text-align: left;
-  width: 80px;
-  color: #ffffff;
-  margin-top : 6px;
-  margin-left: 4px;
-  font-size: 16px;
+	text-align: left;
+	width: 80px;
+	color: #ffffff;
+	margin-top : 6px;
+	margin-left: 4px;
+	font-size: 16px;
 }
 
 div.songartist
 {
-  text-align: left;
-  width: 80px;
-  float: bottom;
-  margin-bottom: 2px;
-  margin-left: 4px;
-  color: #e17033;
-  font-size: 12px;
+	text-align: left;
+	width: 80px;
+	float: bottom;
+	margin-bottom: 2px;
+	margin-left: 4px;
+	color: #2ecc71;
+	font-size: 12px;
+}
+
+.list-group-item-custom
+{
+	font-size: 36px;
+	color: #ffffff;
+	font-family: verdana;
+	line-height: 240px;
+	background-size: 100%;
+	text-align: center;
+}
+
+div.genre img.genre a:hover
+{
+	image
+	border: 1px solid #2ecc71;
 }
