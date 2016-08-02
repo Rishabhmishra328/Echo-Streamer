@@ -128,13 +128,36 @@ div.songartist
 	font-size: 36px;
 	color: #ffffff;
 	font-family: verdana;
-	line-height: 240px;
+	line-height: 200px;
 	background-size: 100%;
 	text-align: center;
 }
 
-div.genre img.genre a:hover
+div.genre
 {
-	image
-	border: 1px solid #2ecc71;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+li.playlist{
+	height: 64px;
+	padding: 0px;
+}
+
+img.playlist
+{
+	height: 64px;
+	width: 64px;
+	margin: 0px;
+}
+
+span.playlist
+{
+
+}
+
+div.playlist-main
+{
+	width: 100%;
+	padding: 0px;
 }
