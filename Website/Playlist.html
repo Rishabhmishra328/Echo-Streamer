@@ -13,7 +13,7 @@
 
 <body>
 
-  <nav class="navbar navbar-inverse navbar-inverse-custom"  >
+  <nav class="navbar navbar-inverse navbar-inverse-custom" style="background-color: #2f2f2f" >
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
@@ -36,13 +36,13 @@
   </nav>
 
   <div class="container playlist-main">
+
     <div class="panel-group">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" href="#collapse1">Collapsible list group</a>
-          </h4>
-        </div>
+
+      <div class="panel panel-default playlist-element">
+        
+        <button type="button" class="btn btn-info playlist-main" data-toggle="collapse" data-target="#collapse1" onmouseenter="this.style.background= '#2ecc71';" onmouseout="this.style.background='#5f5f5f';">Soft Songs</button>        
+
         <div id="collapse1" class="panel-collapse collapse">
           <ul class="list-group">
             <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>One</li>
@@ -56,7 +56,57 @@
           </ul>
         </div>
       </div>
-    </div>
 
-  </body>
-  </html>
+      <div class="panel panel-default playlist-element">
+        <button type="button" class="btn btn-info playlist-main" data-toggle="collapse" data-target="#collapse2" onmouseenter="this.style.background= '#2ecc71';" onmouseout="this.style.background='#5f5f5f';">Natural Sounds</button> 
+        <div id="collapse2" class="panel-collapse collapse">
+          <ul class="list-group">
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>One</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Two</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Three</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Four</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Five</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Six</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Seven</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Eight</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel panel-default playlist-element">
+        <button type="button" class="btn btn-info playlist-main" data-toggle="collapse" data-target="#collapse3" onmouseenter="this.style.background= '#2ecc71';" onmouseout="this.style.background='#5f5f5f';">Jazz</button> 
+        <div id="collapse3" class="panel-collapse collapse">
+          <ul class="list-group">
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>One</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Two</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Three</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Four</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Five</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Six</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Seven</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Eight</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel panel-default playlist-element">
+        <button type="button" class="btn btn-info playlist-main" data-toggle="collapse" data-target="#collapse4" onmouseenter="this.style.background= '#2ecc71';" onmouseout="this.style.background='#5f5f5f';">Blues</button> 
+        <div id="collapse4" class="panel-collapse collapse">
+          <ul class="list-group">
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>One</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Two</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Three</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Four</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Five</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Six</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Seven</li>
+            <li class="list-group-item playlist"><img class="collapse-element  playlist" src="./img/led.png"></img>Eight</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>  
+  </div>
+
+</body>
+</html>
