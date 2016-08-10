@@ -246,3 +246,48 @@ span.favName
 	width: 75px;
 	color: #929292;
 }
+
+div.subs-container
+{
+	float: 
+}
+
+div.subs-element
+{
+	width: 30%;
+	margin: 1%;
+	border: solid #2ecc71;
+	border-radius: 50px;
+}
+
+div.subs-title
+{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+	font-size: 36px;
+	color: #2ecc71;
+}
+
+button.subs-button
+{
+	border-radius: 50px;
+	width: 100%;
+	background-color: #00000000;
+	color: #2ecc71;
+	background-color: #2ecc71;
+}
+
+ul.subs-list
+{
+	color: #2ecc71;
+	font-family: verdana;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+li.subs-list
+{
+	color: #2ecc71;
+	font-family: verdana;
+}
